@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="application.CalController">
+   <children>
+      <Label fx:id="lblR" alignment="CENTER" prefHeight="110.0" prefWidth="400.0" style="-fx-background-color: black;" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblD" layoutY="110.0" prefHeight="48.0" prefWidth="400.0" style="-fx-background-color: red;" textFill="WHITE">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn7" alignment="CENTER" layoutX="23.0" layoutY="189.0" mnemonicParsing="false" onAction="#btn7Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="7" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" alignment="CENTER" layoutX="110.0" layoutY="189.0" mnemonicParsing="false" onAction="#btn8Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="8" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" alignment="CENTER" layoutX="199.0" layoutY="189.0" mnemonicParsing="false" onAction="#btn9Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="9" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" alignment="CENTER" layoutX="23.0" layoutY="275.0" mnemonicParsing="false" onAction="#btn4Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="4" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" alignment="CENTER" layoutX="110.0" layoutY="275.0" mnemonicParsing="false" onAction="#btn5Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="5" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" alignment="CENTER" layoutX="199.0" layoutY="275.0" mnemonicParsing="false" onAction="#btn6Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="6" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPL" alignment="CENTER" layoutX="289.0" layoutY="189.0" mnemonicParsing="false" onAction="#btnPLAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMI" alignment="CENTER" layoutX="289.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnMIAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" alignment="CENTER" layoutX="23.0" layoutY="361.0" mnemonicParsing="false" onAction="#btn1Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="1" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" alignment="CENTER" layoutX="110.0" layoutY="361.0" mnemonicParsing="false" onAction="#btn2Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="2" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" alignment="CENTER" layoutX="199.0" layoutY="361.0" mnemonicParsing="false" onAction="#btn3Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="3" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMU" alignment="CENTER" layoutX="289.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnMUAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="*" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCL" alignment="CENTER" layoutX="24.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnCLAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="C" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" alignment="CENTER" layoutX="111.0" layoutY="447.0" mnemonicParsing="false" onAction="#btn0Action" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: white;" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEQ" alignment="CENTER" layoutX="200.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnEQAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="=" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDI" alignment="CENTER" layoutX="290.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnDIAction" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: red;" text="/" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
